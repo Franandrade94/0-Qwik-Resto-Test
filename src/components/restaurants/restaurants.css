@@ -7,10 +7,15 @@
         display: block;
         }
         .resto-component{
-        margin: 2% 0%;
-        display: flex;
-        justify-content: center;
-        align-items: center;
+          background-image: url(../../assets/images/restaurants/background1.png);
+          background-position: center;
+          background-repeat: no-repeat;
+          background-attachment:fixed;
+          background-size: cover;
+          margin: 2% 0%;
+          display: flex;
+          justify-content: center;
+          align-items: center;
       }
     
       .resto-container{
@@ -124,6 +129,11 @@
       }
     
       .resto-container{
+        background-image: url(../../assets/images/restaurants/background1.png);
+          background-position: center;
+          background-repeat: no-repeat;
+          background-attachment:fixed;
+          background-size: cover;
         margin-top: 0%;
         width: 90vw;
         display: flex;
@@ -226,6 +236,11 @@
     @media only screen and (min-width: 1024px) {
     
       .resto-component{
+        background-image: url(../../assets/Images/restaurants/background1.png);
+          background-position: center;
+          background-repeat: no-repeat;
+          background-attachment:fixed;
+          background-size: cover;
         margin: 2% 0%;
         display: flex;
         justify-content: center;
