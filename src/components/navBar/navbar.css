@@ -236,6 +236,12 @@
         border: solid 1px #bc8533;
     }
 
+    .nav-item.active a {
+        border-bottom: solid 3px;
+        border-bottom-left-radius: 2px;  
+        border-bottom-right-radius: 2px;       
+    }
+
 }
   
 @media only screen and (min-width: 1024px) {
@@ -333,6 +339,11 @@
         border: solid 1px #bc8533;
     }
 
+    .nav-item.active a {
+        border-bottom: solid 3px;
+        border-bottom-left-radius: 2px;  
+        border-bottom-right-radius: 2px;       
+    }
 }
   
   

@@ -14,14 +14,14 @@ export default component$(() => {
   
 
   const updateCurrentSection = $(() => {
-    const homeSection = document.getElementById("Home");
-    const chefSection = document.getElementById("ChefPage");
-    const restaurantSection = document.getElementById("RestaurantPage");
-
-    const scrollY = window.scrollY;
-
+    const homeSection = document.getElementById("HomeSection");
+    const chefSection = document.getElementById("ChefSection");
+    const restaurantSection = document.getElementById("RestoSection");
+  
+    const scrollY = window.scrollY + window.innerHeight / 2; 
+  
     if (homeSection && chefSection && restaurantSection) {
-      if (scrollY >= homeSection.offsetTop && scrollY < chefSection.offsetTop) {
+      if (scrollY < chefSection.offsetTop) {
         store.currentSection = "Home";
       } else if (scrollY >= chefSection.offsetTop && scrollY < restaurantSection.offsetTop) {
         store.currentSection = "ChefPage";
@@ -84,9 +84,16 @@ export default component$(() => {
         
         <nav class={store.isNavOpen  ? 'open' : ''} >
           <ul>
-            <li><a onClick$={() => scrollToSection('Home')}>Home</a></li>
-            <li><a onClick$={() => scrollToSection('ChefPage')} >Chef</a></li>
-            <li><a onClick$={() => scrollToSection('RestaurantPage')} >Restaurantes</a></li>
+            <li class={store.currentSection === 'Home' ? 'nav-item active' : 'nav-item'}>
+              <a onClick$={() => scrollToSection('Home')}>Home</a>
+            </li>
+            <li class={store.currentSection === 'ChefPage' ? 'nav-item active' : 'nav-item'}>
+              <a onClick$={() => scrollToSection('ChefPage')}>Chef</a>
+            </li>
+            <li class={store.currentSection === 'RestaurantPage' ? 'nav-item active' : 'nav-item'}>
+              <a onClick$={() => scrollToSection('RestaurantPage')}>Restaurantes</a>
+            </li>
+
             <li>
               <select>
                 <option value="">Buscar</option>

@@ -40,9 +40,9 @@
         transition: opacity 0.3s ease, visibility 0s linear 0.3s;
     }
     
-    .restocard-container:hover .resto-name {
-        visibility: visible;
-        opacity: 1;
+    .restocard-container:hover .resto-name{
+        visibility: visible !important;
+        opacity: 1 !important;
     }
 }
 
