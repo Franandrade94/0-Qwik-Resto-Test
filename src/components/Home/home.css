@@ -49,11 +49,27 @@
         background-color: transparent;
     }
     
-    .dot-container-home{
-        background-color: rgba(0, 0, 0, 0);
-        width: 40vw;
-        z-index: 1000;
+    .indicator {
+        height: 8px;
+        width: 8px;
+        margin: 0 5px;
+        background-color: rgb(255, 255, 255);
+        border-radius: 50%;
+        display: inline-block;
+        cursor: pointer;
     }
+    
+    .indicator.active {
+        background-color: #DFA040;
+    }
+    
+    .carousel-indicators-home{
+        top: 92%;
+        left: 50%; 
+        transform: translateX(-50%); 
+        position: absolute;
+    }
+    
     
     .home-icons-container{
         position: absolute;
@@ -132,11 +148,27 @@
         background-color: transparent;
     }
     
-    .dot-container-home{
-        background-color: rgba(0, 0, 0, 0);
-        width: 40vw;
-        z-index: 1000;
+    .indicator {
+        height: 10px;
+        width: 10px;
+        margin: 0 5px;
+        background-color: rgb(255, 255, 255);
+        border-radius: 50%;
+        display: inline-block;
+        cursor: pointer;
     }
+    
+    .indicator.active {
+        background-color: #DFA040;
+    }
+    
+    .carousel-indicators-home{
+        top: 95%;
+        left: 50%; 
+        transform: translateX(-50%); 
+        position: absolute;
+    }
+    
     
     .home-icons-container{
         position: absolute;
@@ -215,11 +247,27 @@
         color: #c28b38;
         background-color: transparent;
     }
+
     
-    .dot-container-home{
-        background-color: rgba(0, 0, 0, 0);
-        width: 40vw;
-        z-index: 1000;
+    .indicator {
+        height: 10px;
+        width: 10px;
+        margin: 0 5px;
+        background-color: rgb(255, 255, 255);
+        border-radius: 50%;
+        display: inline-block;
+        cursor: pointer;
+    }
+    
+    .indicator.active {
+        background-color: #DFA040;
+    }
+    
+    .carousel-indicators-home{
+        top: 95%;
+        left: 50%; 
+        transform: translateX(-50%); 
+        position: absolute;
     }
     
     .home-icons-container{

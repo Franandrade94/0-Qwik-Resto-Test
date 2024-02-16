@@ -55,6 +55,19 @@ export default component$(() => {
           ›
         </button>
       </div>
+
+
+      {/* Indicadores de posición (Dots) */}
+      <div class="carousel-indicators-home">
+        {state.slides.map((_, index) => (
+          <span 
+            class={`indicator${index === state.activeIndex ? ' active' : ''}`}
+            onClick$={() => goToSlide(index)}
+            key={index}
+          ></span>
+        ))}
+      </div>
+
   
         <div class='home-icons-container'>
 

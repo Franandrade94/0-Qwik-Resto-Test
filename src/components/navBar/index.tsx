@@ -33,6 +33,7 @@ export default component$(() => {
 
   
   const scrollToSection = $( (sectionId: string) => {
+
     let actualSectionId = '';
     switch (sectionId) {
       case 'Home':
