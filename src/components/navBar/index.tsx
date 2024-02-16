@@ -9,21 +9,71 @@ export default component$(() => {
   const store = useStore({
     isNavOpen: false,
     windowWidth: 0,
+    currentSection: "Home",
+  });
+  
+
+  const updateCurrentSection = $(() => {
+    const homeSection = document.getElementById("Home");
+    const chefSection = document.getElementById("ChefPage");
+    const restaurantSection = document.getElementById("RestaurantPage");
+
+    const scrollY = window.scrollY;
+
+    if (homeSection && chefSection && restaurantSection) {
+      if (scrollY >= homeSection.offsetTop && scrollY < chefSection.offsetTop) {
+        store.currentSection = "Home";
+      } else if (scrollY >= chefSection.offsetTop && scrollY < restaurantSection.offsetTop) {
+        store.currentSection = "ChefPage";
+      } else if (scrollY >= restaurantSection.offsetTop) {
+        store.currentSection = "RestaurantPage";
+      }
+    }
+  });
+
+  
+  const scrollToSection = $( (sectionId: string) => {
+    let actualSectionId = '';
+    switch (sectionId) {
+      case 'Home':
+        actualSectionId = 'HomeSection';
+        break;
+      case 'ChefPage':
+        actualSectionId = 'ChefSection';
+        break;
+      case 'RestaurantPage':
+        actualSectionId = 'RestoSection';
+        break;
+      default:
+        console.warn('Section ID not found');
+        return;
+    }
+  
+    const section = document.getElementById(actualSectionId);
+    if (section) {
+      window.scrollTo({
+        top: section.offsetTop,
+        behavior: "smooth",
+      });
+    }
   });
 
   useOnWindow(
     "load",
     $(() => {
-      store.windowWidth = window.innerWidth
+      store.windowWidth = window.innerWidth;
+      updateCurrentSection();
     })
-  )
+  );
   
   useOnWindow(
     "resize",
     $(() => {
       store.windowWidth = window.innerWidth
     })
-  )
+  );
+
+  useOnWindow("scroll", updateCurrentSection);
 
   return (
     <>
@@ -34,9 +84,9 @@ export default component$(() => {
         
         <nav class={store.isNavOpen  ? 'open' : ''} >
           <ul>
-            <li><a href="/">Home</a></li>
-            <li><a href="/chef">Chef</a></li>
-            <li><a href="/restaurantes">Restaurantes</a></li>
+            <li><a onClick$={() => scrollToSection('Home')}>Home</a></li>
+            <li><a onClick$={() => scrollToSection('ChefPage')} >Chef</a></li>
+            <li><a onClick$={() => scrollToSection('RestaurantPage')} >Restaurantes</a></li>
             <li>
               <select>
                 <option value="">Buscar</option>

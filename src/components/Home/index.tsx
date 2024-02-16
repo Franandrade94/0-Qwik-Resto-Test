@@ -29,7 +29,7 @@ export default component$(() => {
   
 
   return (
-    <div class="carousel-container-home">
+    <div id='HomeSection' class="carousel-container-home">
       {state.slides.map((slide, index) => (
         <div
           class={`carousel-slide-home ${index === state.activeIndex ? 'active' : ''}`}

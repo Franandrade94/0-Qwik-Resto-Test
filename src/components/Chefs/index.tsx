@@ -41,7 +41,7 @@ export default component$(() => {
   };
 
   return (
-    <div class='chef-component'>
+    <div id='ChefSection' class='chef-component'>
       <div class='chef-container'>
 
         <div class="Chef-title">

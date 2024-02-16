@@ -40,7 +40,7 @@ export default component$(() => {
   };
 
   return (
-    <div class='resto-component'>
+    <div id='RestoSection' class='resto-component'>
       <div class='resto-container'>
 
         <div class="resto-title">
