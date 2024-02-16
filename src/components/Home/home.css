@@ -1,0 +1,252 @@
+@media only screen and (max-width: 767px){
+
+    .carousel-container-home {
+        position: relative;
+        width: 100vw;
+        height: 50vh;
+        /* Ajusta la altura según tu diseño */
+        overflow: hidden;
+    }
+    
+    .carousel-slide-home {
+        display: none;
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        background-size: cover;
+        background-position: center;
+    }
+    
+    .carousel-slide-home.active {
+        display: block;
+    }
+    
+    .carousel-controls-home {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        text-align: center;
+        width: 100vw;
+        height: 50vh;
+        
+    }
+    
+    .control-prev-home,
+    .control-next-home {
+        border: none;
+        background: rgba(0, 0, 0, 0);
+        color: #DFA040;
+        font-size: 30px;
+        margin: 0% 4%;
+        cursor: pointer;
+        user-select: none;
+        z-index: 100;
+    }
+    
+    .control-prev-home:hover,
+    .control-next-home:hover {
+        color: #c28b38;
+        background-color: transparent;
+    }
+    
+    .dot-container-home{
+        background-color: rgba(0, 0, 0, 0);
+        width: 40vw;
+        z-index: 1000;
+    }
+    
+    .home-icons-container{
+        position: absolute;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        top: 85%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        z-index: 1001;
+    
+    }
+    
+    .home-icons-container div{
+        background-color: #DFA040;
+        width: 9vw ;
+        height: 3vh;
+        border-radius: 50px;
+        margin: 0% 3%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .home-icons-container img{
+        width: 3.5vw;
+    }
+
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1023px){
+    .carousel-container-home {
+        position: relative;
+        width: 100vw;
+        height: 70vh;
+        overflow: hidden;
+    }
+    
+    .carousel-slide-home {
+        display: none;
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        background-size: cover;
+        background-position: center;
+    }
+    
+    .carousel-slide-home.active {
+        display: block;
+    }
+    
+    .carousel-controls-home {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        text-align: center;
+        width: 100vw;
+        height: 70vh; 
+    }
+    
+    .control-prev-home,
+    .control-next-home {
+        border: none;
+        background: rgba(0, 0, 0, 0);
+        color: #DFA040;
+        font-size: 40px;
+        margin: 0% 3%;
+        cursor: pointer;
+        user-select: none;
+        z-index: 100;
+    }
+    
+    .control-prev-home:hover,
+    .control-next-home:hover {
+        color: #c28b38;
+        background-color: transparent;
+    }
+    
+    .dot-container-home{
+        background-color: rgba(0, 0, 0, 0);
+        width: 40vw;
+        z-index: 1000;
+    }
+    
+    .home-icons-container{
+        position: absolute;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        top: 85%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        z-index: 1001;
+    
+    }
+    
+    .home-icons-container div{
+        background-color: #DFA040;
+        width: 8vw ;
+        height: 4vh;
+        border-radius: 50px;
+        margin: 0% 3%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .home-icons-container img{
+        width: 3.5vw;
+    }
+}
+
+@media (min-width: 1024px) {
+    .carousel-container-home {
+        position: relative;
+        width: 100vw;
+        height: 100vh;
+        /* Ajusta la altura según tu diseño */
+        overflow: hidden;
+    }
+    
+    .carousel-slide-home {
+        display: none;
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        background-size: cover;
+        background-position: center;
+    }
+    
+    .carousel-slide-home.active {
+        display: block;
+    }
+    
+    .carousel-controls-home {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        text-align: center;
+        width: 100vw;
+        height: 100vh;
+        
+    }
+    
+    .control-prev-home,
+    .control-next-home {
+        border: none;
+        background: rgba(0, 0, 0, 0);
+        color: #DFA040;
+        font-size: 50px;
+        margin: 0% 5%;
+        cursor: pointer;
+        user-select: none;
+        z-index: 100;
+    }
+    
+    .control-prev-home:hover,
+    .control-next-home:hover {
+        color: #c28b38;
+        background-color: transparent;
+    }
+    
+    .dot-container-home{
+        background-color: rgba(0, 0, 0, 0);
+        width: 40vw;
+        z-index: 1000;
+    }
+    
+    .home-icons-container{
+        position: absolute;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        top: 85%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        z-index: 1001;
+    
+    }
+    
+    .home-icons-container div{
+        background-color: #DFA040;
+        width: 4vw ;
+        height: 6vh;
+        border-radius: 50px;
+        margin: 0% 3%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .home-icons-container img{
+        width: 1.9vw;
+    } 
+}
+

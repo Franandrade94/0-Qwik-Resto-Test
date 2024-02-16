@@ -1,0 +1,279 @@
+@media only screen and (max-width: 767px){
+    .top-chefs-component{
+        margin-top: 5%;
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+        flex-direction: column;
+        width: 100vw;
+    }
+    
+    .top-chefs-container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        height: auto; 
+        width: 80vw;
+        margin-top: 2%;
+    }
+    
+    .top-chefs-component h2{
+        text-align: center;
+        font-size: 25px;
+        margin-top: 5%;
+        margin-bottom: 5%;
+        font-weight: 700;
+        color: #DFA040;
+    }
+    
+    .chef-rank-1 {
+        order: 2; 
+    }
+    
+    .chef-rank-2 {
+        order: 1; 
+    }
+    
+    .chef-rank-3 {
+        order: 3;
+    }
+       
+    
+    .chef-rank-1 img{
+        margin-top: -4% !important;
+        width: 25vw;
+        height: 18vh;
+        position: relative;
+        border-radius: 5px;
+        margin-left: 1%;
+        margin-right: 1%;
+    }
+
+    .chef-rank-2 img{
+        width: 24vw;
+        height: 17vh;
+        position: relative;
+        border-radius: 5px;
+        margin-top: 0% !important;
+        margin-left: 1%;
+        margin-right: 1%;
+    }
+    
+    .chef-rank-3 img{
+        width: 23vw;
+        height: 16vh;
+        position: relative;
+        border-radius: 5px;
+        margin-top: 0% !important;
+        margin-left: 1%;
+        margin-right: 1%;
+    }
+    
+    
+    .TopChefrank-img-1 {
+        width: 8vw !important;
+        height: 6vh !important;
+        margin-bottom: -10%;
+        z-index: 1000;
+    }
+    
+    .TopChefrank-img-2 {
+        width: 7vw !important;
+        height: 5vh !important;
+        margin-bottom: -10%;
+        z-index: 1000;
+    }
+    
+    .TopChefrank-img-3 {
+        width: 6vw !important;
+        height: 4vh !important;
+        margin-bottom: -10%;
+        z-index: 1000;
+    }
+    .rank {
+        
+    }
+    
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1023px){
+    
+    .top-chefs-component{
+        margin-top: 5%;
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+        flex-direction: column;
+        width: 100vw;
+    }
+    
+    .top-chefs-container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        height: auto; 
+        width: 80vw;
+        margin-top: 2%;
+    }
+    
+    .top-chefs-component h2{
+        text-align: center;
+        font-size: 25px;
+        margin-top: 5%;
+        margin-bottom: 5%;
+        font-weight: 700;
+        color: #DFA040;
+    }
+    
+    .chef-rank-1 {
+        order: 2; 
+    }
+    
+    .chef-rank-2 {
+        order: 1; 
+    }
+    
+    .chef-rank-3 {
+        order: 3;
+    }
+       
+    
+    .chef-rank-1 img{
+        margin-top: -4% !important;
+        width: 25vw;
+        height: 20vh;
+        position: relative;
+        border-radius: 5px;
+        margin-left: 1%;
+        margin-right: 1%;
+    }
+
+    .chef-rank-2 img{
+        width: 24vw;
+        height: 19vh;
+        position: relative;
+        border-radius: 5px;
+        margin-top: 0% !important;
+        margin-left: 1%;
+        margin-right: 1%;
+    }
+    
+    .chef-rank-3 img{
+        width: 23vw;
+        height: 18vh;
+        position: relative;
+        border-radius: 5px;
+        margin-top: 0% !important;
+        margin-left: 1%;
+        margin-right: 1%;
+    }
+    
+    
+    .TopChefrank-img-1 {
+        width: 8vw !important;
+        height: 6vh !important;
+        margin-bottom: -10%;
+        z-index: 1000;
+    }
+    
+    .TopChefrank-img-2 {
+        width: 7vw !important;
+        height: 5vh !important;
+        margin-bottom: -10%;
+        z-index: 1000;
+    }
+    
+    .TopChefrank-img-3 {
+        width: 6vw !important;
+        height: 4vh !important;
+        margin-bottom: -10%;
+        z-index: 1000;
+    }
+    .rank {
+        
+    }
+    
+}
+
+@media only screen and (min-width: 1024px){
+
+.top-chefs-component{
+    margin-top: 5%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.top-chefs-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: auto; 
+    width: 50vw;
+    margin-top: 2%;
+}
+
+.top-chefs-component h2{
+    text-align: center;
+    font-size: 30px;
+    font-weight: 700;
+    margin-bottom: 2%;
+    color: #DFA040;
+}
+
+.chef-rank-1 {
+    order: 2; 
+}
+
+.chef-rank-2 {
+    order: 1; 
+}
+
+.chef-rank-3 {
+    order: 3;
+}
+
+.chef-rank-1 img,
+.chef-rank-2 img,
+.chef-rank-3 img {
+    width: 15vw;
+    height: 40vh;
+    position: relative;
+    border-radius: 5px;
+    margin-top: 0% !important;
+}
+
+.chef-rank-1 img{
+    margin-top: -3% !important;
+}
+
+
+
+.TopChefrank-img-1 {
+    width: 7vw !important;
+    height: 12vh !important;
+    margin-bottom: -10%;
+    z-index: 1000;
+}
+
+.TopChefrank-img-2 {
+    width: 5vw !important;
+    height: 10vh  !important;
+    margin-bottom: -10%;
+    z-index: 1000;
+}
+
+.TopChefrank-img-3 {
+    width: 4vw !important;
+    height: 9vh !important;
+    margin-bottom: -10%;
+    z-index: 1000;
+}
+.rank {
+    
+}
+}

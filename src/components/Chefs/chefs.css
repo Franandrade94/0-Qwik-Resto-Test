@@ -1,0 +1,332 @@
+@media only screen and (max-width: 767px){
+
+	.chefcard-chef {
+		display: none;
+	  }
+	  .chefcard-chef:first-child {
+		display: block;
+	  }
+	  .chef-component{
+		margin: 2% 0%;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+
+	.chef-container{
+		margin-top: 10%;
+		width: 90vw;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+	}
+
+	.Chef-title h2{
+		text-align: center;
+        font-size: 35px;
+        font-weight: 700;
+        color: #ffb700;
+	}
+
+	.chef-carousel-container{
+		width: 50vw;
+		height: 30vh;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
+		text-align: center;
+	}
+
+
+	.card-container {
+		margin-top: -5%;
+		display: flex;
+		justify-content: center; 
+		align-items: center; 
+		gap: 10px;
+	  }
+	  
+
+	  .chefcard-chef{
+		flex: 1 0 calc(25% - 10px);
+		margin: 0;
+	  }
+
+	  .carousel-controls-chef{
+		margin-top: -70%;
+		display: flex;
+        align-items: center;
+        justify-content: space-between;
+        text-align: center;
+        width: 60vw;
+        height: auto;
+	  }
+
+	  .control-prev-chef{
+		border: none;
+        background: rgba(0, 0, 0, 0);
+        color: #DFA040;
+        font-size: 50px;
+        margin: 0% 5%;
+        cursor: pointer;
+        user-select: none;
+        z-index: 100;
+	  }
+
+	  .control-next-chef{
+		border: none;
+        background: rgba(0, 0, 0, 0);
+        color: #DFA040;
+        font-size: 50px;
+        margin: 0% 5%;
+        cursor: pointer;
+        user-select: none;
+        z-index: 100;
+	}
+
+	.control-prev-chef:hover,
+    .control-next-chef:hover {
+        color: #c28b38;
+        background-color: transparent;
+    }
+
+	.Chefs-cards-button{
+		background-color: rgb(255, 183, 0);
+        border: solid 2px rgb(255, 183, 0);
+        border-radius: 5px;
+        margin-top: 3%;
+        padding: 0.6% 4%;
+        font-weight: 600;
+		color:rgb(20, 20, 20) ;
+	}
+
+	.Chefs-cards-button:hover {
+		background-color: rgb(204, 146, 0);
+        border: solid 2px rgb(204, 146, 0);
+	}
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1023px){
+
+	.chefcard-chef {
+		display: none;
+	  }
+	  .chefcard-chef:nth-child(-n+3) {
+		display: block;
+	  }
+	  .chef-component{
+		margin: 2% 0%;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+
+	.chef-container{
+		margin-top: 0%;
+		width: 90vw;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+	}
+
+	.Chef-title{
+		margin: 2% 0;
+	}
+
+	.Chef-title h2{
+		text-align: center;
+        font-size: 35px;
+        font-weight: 700;
+        color: #ffb700;
+	}
+
+	.chef-carousel-container{
+		width: 80vw;
+		height: 36vh;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
+		text-align: center;
+	}
+
+
+	.card-container {
+		margin-top: -5%;
+		margin-left: 5%;
+		display: flex;
+		justify-content: center; 
+		align-items: center; 
+		gap: 10px;
+	  }
+	  
+
+	  .chefcard-chef{
+		flex: 1 0 calc(25% - 10px);
+		margin: 0;
+	  }
+
+	  .carousel-controls-chef{
+		margin-top: -25%;
+		display: flex;
+        align-items: center;
+        justify-content: space-between;
+        text-align: center;
+        width: 100vw;
+        height: auto;
+	  }
+
+	  .control-prev-chef{
+		border: none;
+        background: rgba(0, 0, 0, 0);
+        color: #DFA040;
+        font-size: 50px;
+        margin: 0% 5%;
+        cursor: pointer;
+        user-select: none;
+        z-index: 100;
+	  }
+
+	  .control-next-chef{
+		border: none;
+        background: rgba(0, 0, 0, 0);
+        color: #DFA040;
+        font-size: 50px;
+        margin: 0% 5%;
+        cursor: pointer;
+        user-select: none;
+        z-index: 100;
+	}
+
+	.control-prev-chef:hover,
+    .control-next-chef:hover {
+        color: #c28b38;
+        background-color: transparent;
+    }
+
+	.Chefs-cards-button{
+		background-color: rgb(255, 183, 0);
+        border: solid 2px rgb(255, 183, 0);
+        border-radius: 5px;
+        margin-top: 3%;
+        padding: 0.6% 4%;
+        font-weight: 600;
+		color:rgb(20, 20, 20) ;
+	}
+
+	.Chefs-cards-button:hover {
+		background-color: rgb(204, 146, 0);
+        border: solid 2px rgb(204, 146, 0);
+	}
+}
+
+@media only screen and (min-width: 1024px) {
+
+	.chef-component{
+		margin: 2% 0%;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+
+	.chef-container{
+		margin-top: 0%;
+		width: 90vw;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+	}
+
+	.Chef-title{
+		margin: 2% 0;
+	}
+
+	.Chef-title h2{
+		text-align: center;
+        font-size: 35px;
+        font-weight: 700;
+        color: #ffb700;
+	}
+
+	.chef-carousel-container{
+		width: 50vw;
+		height: 36vh;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
+		text-align: center;
+	}
+
+
+	.card-container {
+		margin-top: -5%;
+		display: flex;
+		justify-content: center; 
+		align-items: center; 
+		gap: 10px;
+	  }
+	  
+
+	  .chefcard-chef{
+		flex: 1 0 calc(25% - 10px);
+		margin: 0;
+	  }
+
+	  .carousel-controls-chef{
+		margin-top: -21%;
+		display: flex;
+        align-items: center;
+        justify-content: space-between;
+        text-align: center;
+        width: 60vw;
+        height: auto;
+	  }
+
+	  .control-prev-chef{
+		border: none;
+        background: rgba(0, 0, 0, 0);
+        color: #DFA040;
+        font-size: 50px;
+        margin: 0% 5%;
+        cursor: pointer;
+        user-select: none;
+        z-index: 100;
+	  }
+
+	  .control-next-chef{
+		border: none;
+        background: rgba(0, 0, 0, 0);
+        color: #DFA040;
+        font-size: 50px;
+        margin: 0% 5%;
+        cursor: pointer;
+        user-select: none;
+        z-index: 100;
+	}
+
+	.control-prev-chef:hover,
+    .control-next-chef:hover {
+        color: #c28b38;
+        background-color: transparent;
+    }
+
+	.Chefs-cards-button{
+		background-color: rgb(255, 183, 0);
+        border: solid 2px rgb(255, 183, 0);
+        border-radius: 5px;
+        margin-top: 3%;
+        padding: 0.6% 4%;
+        font-weight: 600;
+		color:rgb(20, 20, 20) ;
+	}
+
+	.Chefs-cards-button:hover {
+		background-color: rgb(204, 146, 0);
+        border: solid 2px rgb(204, 146, 0);
+	}
+}

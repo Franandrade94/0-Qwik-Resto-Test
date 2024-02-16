@@ -1,0 +1,143 @@
+@media only screen and (max-width: 767px){
+    .restocard-container{
+        width: 50vw;
+        height: 19vh;
+    }
+    
+    .restocard-container img{
+        width: 50vw !important;
+        height: 15vh !important;
+        border-radius: 5px;
+    }
+    
+    
+    .restocard-containerr {
+        position: relative;
+    }
+    
+    .restocard-container img {
+        width: 100%;
+        height: auto;
+        transition: filter 0.3s ease;
+    }
+    
+    .restocard-container img.blurred {
+        filter: blur(3px);
+    }
+    
+    .resto-name {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        color: rgb(255, 255, 255);
+        padding: 5px 10px;
+        border-radius: 5px;
+        font-weight: bold;
+        font-size: 16px;
+        visibility: hidden;
+        opacity: 0;
+        transition: opacity 0.3s ease, visibility 0s linear 0.3s;
+    }
+    
+    .restocard-container:hover .resto-name {
+        visibility: visible;
+        opacity: 1;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1023px){
+    .restocard-container{
+        width: 24vw;
+        height: 18vh;
+        margin: 0 -10%;
+    }
+    
+    .restocard-container img{
+        width: 24vw !important;
+        height: 10vh !important;
+        border-radius: 5px;
+    }
+    
+    
+    .restocard-container {
+        position: relative;
+    }
+    
+    .restocard-container img {
+        width: 100%;
+        height: auto;
+        transition: filter 0.3s ease;
+    }
+    
+    .restocard-container img.blurred {
+        filter: blur(3px);
+    }
+    
+    .resto-name {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        color: rgb(255, 255, 255);
+        padding: 5px 10px;
+        border-radius: 5px;
+        font-weight: bold;
+        font-size: 16px;
+        visibility: hidden;
+        opacity: 0;
+        transition: opacity 0.3s ease, visibility 0s linear 0.3s;
+    }
+    
+    .restocard-container:hover .resto-name {
+        visibility: visible;
+        opacity: 1; 
+    }
+}
+
+@media only screen and (min-width: 1024px) {
+    .restocard-container {
+        width: 20vw;
+        height: 25vh;
+    }
+    
+    .restocard-container img {
+        width: 20vw !important;
+        height: 100% !important;
+        border-radius: 5px;
+    }
+    
+    .restocard-container {
+        position: relative;
+    }
+    
+    .restocard-container img {
+        width: 100%;
+        height: auto;
+        transition: filter 0.3s ease;
+    }
+    
+    .restocard-container img.blurred {
+        filter: blur(3px);
+    }
+    
+    .resto-name {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        color: rgb(255, 255, 255);
+        padding: 5px 10px;
+        border-radius: 5px;
+        font-weight: bold;
+        font-size: 16px;
+        visibility: hidden;
+        opacity: 0;
+        transition: opacity 0.3s ease, visibility 0s linear 0.3s;
+    }
+    
+    .restocard-container:hover .resto-name {
+        visibility: visible;
+        opacity: 1;
+    }
+}
