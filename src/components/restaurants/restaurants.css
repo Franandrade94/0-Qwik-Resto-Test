@@ -12,6 +12,7 @@
           background-repeat: no-repeat;
           background-attachment:fixed;
           background-size: cover;
+          height: 50vh;
           margin: 2% 0%;
           display: flex;
           justify-content: center;
@@ -135,7 +136,8 @@
           background-attachment:fixed;
           background-size: cover;
         margin-top: 0%;
-        width: 90vw;
+        width: 100vw;
+        height: 35vh;
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -241,6 +243,7 @@
           background-repeat: no-repeat;
           background-attachment:fixed;
           background-size: cover;
+          height: 80vh;
         margin: 2% 0%;
         display: flex;
         justify-content: center;
