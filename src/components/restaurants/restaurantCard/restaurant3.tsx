@@ -29,9 +29,9 @@ export const RestoCard3 = component$(() => {
       />
       {state.hovered && (
         <div class="resto-name">
-          <p style={{ color: '#ffb700' }}>{restaurant.name}</p>
+          <p style={{ color: '#DFA040' }}>{restaurant.name}</p>
           <p>{restaurant.especial}</p>
-          <p style={{ color: '#ffb700' }}>{restaurant.ubication}</p>
+          <p style={{ color: '#DFA040' }}>{restaurant.ubication}</p>
         </div>
       )}
     </div>

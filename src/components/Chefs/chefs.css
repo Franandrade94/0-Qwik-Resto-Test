@@ -26,7 +26,7 @@
 		text-align: center;
         font-size: 35px;
         font-weight: 700;
-        color: #ffb700;
+        color: #DFA040;
 	}
 
 	.chef-carousel-container{
@@ -93,8 +93,8 @@
     }
 
 	.Chefs-cards-button{
-		background-color: rgb(255, 183, 0);
-        border: solid 2px rgb(255, 183, 0);
+		background-color: #DFA040;
+        border: solid 2px #DFA040;
         border-radius: 5px;
         margin-top: 3%;
         padding: 0.6% 4%;
@@ -103,8 +103,8 @@
 	}
 
 	.Chefs-cards-button:hover {
-		background-color: rgb(204, 146, 0);
-        border: solid 2px rgb(204, 146, 0);
+		background-color: #c28b38;
+        border: solid 2px #c28b38;
 	}
 }
 
@@ -140,7 +140,7 @@
 		text-align: center;
         font-size: 35px;
         font-weight: 700;
-        color: #ffb700;
+        color: #DFA040;
 	}
 
 	.chef-carousel-container{
@@ -208,8 +208,8 @@
     }
 
 	.Chefs-cards-button{
-		background-color: rgb(255, 183, 0);
-        border: solid 2px rgb(255, 183, 0);
+		background-color: #DFA040;
+        border: solid 2px #DFA040;
         border-radius: 5px;
         margin-top: 3%;
         padding: 0.6% 4%;
@@ -218,15 +218,15 @@
 	}
 
 	.Chefs-cards-button:hover {
-		background-color: rgb(204, 146, 0);
-        border: solid 2px rgb(204, 146, 0);
+		background-color: #c28b38;
+        border: solid 2px #c28b38;
 	}
 }
 
 @media only screen and (min-width: 1024px) {
 
 	.chef-component{
-		margin: 2% 0%;
+		padding: 2% 0%;
 		display: flex;
 		justify-content: center;
 		align-items: center;
@@ -249,7 +249,7 @@
 		text-align: center;
         font-size: 35px;
         font-weight: 700;
-        color: #ffb700;
+        color: #DFA040;
 	}
 
 	.chef-carousel-container{
@@ -316,8 +316,8 @@
     }
 
 	.Chefs-cards-button{
-		background-color: rgb(255, 183, 0);
-        border: solid 2px rgb(255, 183, 0);
+		background-color: #DFA040;
+        border: solid 2px #DFA040;
         border-radius: 5px;
         margin-top: 3%;
         padding: 0.6% 4%;
@@ -326,7 +326,7 @@
 	}
 
 	.Chefs-cards-button:hover {
-		background-color: rgb(204, 146, 0);
-        border: solid 2px rgb(204, 146, 0);
+		background-color: #c28b38;
+        border: solid 2px #c28b38;
 	}
 }

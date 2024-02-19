@@ -301,7 +301,9 @@
         
     .Nav-Logo{
         display: flex;
+        justify-content: center;
         align-items: center;
+        margin-left: 2.5%;
     }
     
     .Nav-Logo h1{

@@ -41,8 +41,8 @@
     }
     
     .restocard-container:hover .resto-name{
-        visibility: visible !important;
-        opacity: 1 !important;
+        visibility: visible;
+        opacity: 1;
     }
 }
 
@@ -118,7 +118,7 @@
     }
     
     .restocard-container img.blurred {
-        filter: blur(3px);
+        filter: blur(4px);
     }
     
     .resto-name {
